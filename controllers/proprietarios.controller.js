@@ -42,7 +42,7 @@ async function updateProprietarioController(req, res, next) {
     try {
         let proprietario = req.body
 
-        if (!proprietario.proprietario_id || !proprietario.nome || !proprietario.telefone) {
+        if (!proprietario.proprietarioId || !proprietario.nome || !proprietario.telefone) {
             throw new Error("Nome, ID e telefone são obrigatórios")
         }
         res.send(await proprietariosService.updateProprietarioService(proprietario))

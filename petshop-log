@@ -169,3 +169,40 @@
 2024-03-26T00:05:45.532Z [petshop-log] info GET / Animais
 2024-03-26T00:22:26.546Z [petshop-log] info GET / Animais
 2024-03-26T00:22:40.382Z [petshop-log] info GET / Animal ID = 5
+2024-04-03T22:00:46.152Z [petshop-log] info GET / Proprietarios
+2024-04-03T22:01:01.690Z [petshop-log] error DELETE  - connect is not defined
+2024-04-03T22:03:12.755Z [petshop-log] info GET / Proprietarios
+2024-04-03T22:03:17.459Z [petshop-log] info GET / Proprietarios
+2024-04-03T22:03:26.470Z [petshop-log] info GET / Proprietarios
+2024-04-03T22:03:37.678Z [petshop-log] error DELETE  - connect is not defined
+2024-04-03T22:03:38.993Z [petshop-log] error DELETE  - connect is not defined
+2024-04-03T22:04:24.359Z [petshop-log] error DELETE  - connect is not defined
+2024-04-03T22:04:25.250Z [petshop-log] error DELETE  - connect is not defined
+2024-04-03T22:07:35.097Z [petshop-log] info GET / Proprietario ID = 1
+2024-04-03T22:07:45.335Z [petshop-log] info GET / Proprietario ID = 2
+2024-04-03T22:07:59.413Z [petshop-log] error PUT  - Nome, ID e telefone são obrigatórios
+2024-04-03T22:08:10.220Z [petshop-log] info PUT / Proprietarios = {"proprietarioId":18,"nome":"marcelo Abbadia","telefone":"(21)3443323"}
+2024-04-03T22:08:18.789Z [petshop-log] error DELETE  - connect is not defined
+2024-04-03T22:08:20.219Z [petshop-log] error DELETE  - connect is not defined
+2024-04-03T22:45:32.343Z [petshop-log] info GET / Animais
+2024-04-03T22:45:38.274Z [petshop-log] info GET / Animal ID = 5
+2024-04-03T22:45:44.623Z [petshop-log] info GET / Animais
+2024-04-03T22:46:07.252Z [petshop-log] info PUT / Animals = {"animalId":7,"nome":"Milu","tipo":"Cachorro","proprietario_id":18}
+2024-04-03T22:46:10.837Z [petshop-log] info GET / Animais
+2024-04-03T22:46:43.195Z [petshop-log] info PUT / Animals = {"animalId":3,"nome":"Milu","tipo":"Cachorro","proprietario_id":18}
+2024-04-03T22:46:45.873Z [petshop-log] info GET / Animais
+2024-04-03T22:47:03.724Z [petshop-log] error PUT  - Nome, tipo e proprietário do animal são obrigatórios
+2024-04-03T22:47:24.904Z [petshop-log] error PUT  - Nome, tipo e proprietário do animal são obrigatórios
+2024-04-03T22:47:38.526Z [petshop-log] error PUT  - Nome, tipo e proprietário do animal são obrigatórios
+2024-04-03T22:48:03.617Z [petshop-log] error PUT  - Nome, tipo e proprietário do animal são obrigatórios
+2024-04-03T22:48:09.930Z [petshop-log] info GET / Proprietarios
+2024-04-03T22:48:28.801Z [petshop-log] error POST  - Nome, tipo e proprietário do animal são obrigatórios
+2024-04-03T22:49:24.797Z [petshop-log] info POST / Animais = {"nome":"Au au","tipo":"Cachorro","proprietarioId":18}
+2024-04-03T22:49:30.419Z [petshop-log] info GET / Animais
+2024-04-03T22:49:40.043Z [petshop-log] info GET / Proprietarios
+2024-04-03T22:49:46.086Z [petshop-log] info GET / Animais
+2024-04-03T22:50:33.804Z [petshop-log] error DELETE  - Proprietário possui animais cadastrados e não pode ser excluído!
+2024-04-03T22:50:45.857Z [petshop-log] info DELETE / Animal ID = 18
+2024-04-03T22:50:50.809Z [petshop-log] info GET / Animais
+2024-04-03T22:50:56.556Z [petshop-log] info DELETE / Proprietario ID = 18
+2024-04-03T22:51:00.746Z [petshop-log] info GET / Proprietarios
