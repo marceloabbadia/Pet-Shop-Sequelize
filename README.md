@@ -3,6 +3,10 @@
 
 Este é um projeto do bootcamp que implementa um CRUD (Create, Read, Update, Delete) para uma API de Petshop. O projeto utiliza o ORM Sequelize, o banco de dados PostgreSQL hospedado no ElephantSQL e o logger Winston para registro de atividades.
 
+<img width="1512" alt="Pet-Shop-Sequelize" src="https://github.com/marceloabbadia/Pet-Shop-Sequelize/assets/112344339/800de6b7-5880-440d-8885-96bd3f41e8db">
+
+
+
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter as seguintes dependências instaladas em sua máquina:
